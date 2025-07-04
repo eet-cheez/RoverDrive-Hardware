@@ -30,3 +30,9 @@ now, I need to do the battery charging. I normally use a 2 cell lithium battery,
 It uses a separate usbc connector for charging. has tp4056 as the carging IC, a fs312f for protection, and an mt3608 for boosting it to 5v. I also added two empty wire holes for a switch
 
 ## Time Spent:  5 hours
+
+## Day 4 - 6/28
+Started doing the gyro/accelerometer for the robot. The robot will need to know the direction it is facing. some options are the mpu9250 and icm 20948, but you need to do extra complex stuff to calculate its orientation. while researching these, I saw the bno055 sensor which is very accurate.
+There arent very many pictures of schematics I could find for reference. I have been looking at the schematic in its datasheet and also the schematic of the Adafruit breakout board
+
+## Time Spent:  4 hours
