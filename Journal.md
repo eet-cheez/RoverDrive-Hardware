@@ -32,7 +32,40 @@ It uses a separate usbc connector for charging. has tp4056 as the carging IC, a 
 ## Time Spent:  5 hours
 
 ## Day 4 - 6/28
-Started doing the gyro/accelerometer for the robot. The robot will need to know the direction it is facing. some options are the mpu9250 and icm 20948, but you need to do extra complex stuff to calculate its orientation. while researching these, I saw the bno055 sensor which is very accurate.
-There arent very many pictures of schematics I could find for reference. I have been looking at the schematic in its datasheet and also the schematic of the Adafruit breakout board
+Started doing the gyro/accelerometer for the robot. The robot will need to know the direction it is facing. some options are the mpu9250 and icm 20948, but you need to do extra complex stuff to calculate its orientation. 
+While researching these, I saw the bno055 sensor which is very accurate, but there arent very many pictures of schematics I could find for reference. I have been looking at the schematic in its datasheet and also the schematic of the Adafruit breakout board
 
 ## Time Spent:  4 hours
+
+## Day 5 - 6/29
+Finished the imu schematic:
+
+![Screenshot 2025-07-05 154006](https://github.com/user-attachments/assets/4f6e5530-e5e4-4977-a32b-592f3de0dd47)
+
+All thats left is to add the connectors for sensors and servos and an led. 
+
+I added 6 3-pin connectors (one for each 5v wheel servo, one for a tiny grabber arm servo, and another for a some extra 3.3v sensor), then I added a 4-pin connector for a distance sensor and a 2-pin connector for a controllable LED. 
+It looks like this:
+![Screenshot 2025-07-05 172137](https://github.com/user-attachments/assets/5a2cb900-a91b-4899-b077-4f6181e9f184)
+
+## Time Spent:  2 hours
+
+## Day 6 - 6/30
+The schematic is done, now I'm picking the footprints.
+
+I decided to remove the entire charging circuit because it's too complex and is just unnecessary. I realized I usually just replace the dead battery with a charged one because I need to use it continuously.
+## Time Spent:  3 hours
+
+## Day 7 - 7/1
+I need to make the PCB now. It must fit within a space of 45mmx67mm and should have all connectors (except for wheel and battery) inside the orange area, like shown: 
+![Screenshot 2025-07-05 192340](https://github.com/user-attachments/assets/75ef95b1-cd66-46c0-b914-46fa58445d65)
+
+I placed all of the parts on the board. All the power components are all at the bottom. The esp32 sticks out of the side. I also tried to put all of the gyro parts in the center of the board so it is more accurate. The wheel servo headers and battery connectors are on the other side. It looks like this: 
+
+![Screenshot 2025-07-05 235741](https://github.com/user-attachments/assets/d2d02d1e-b529-47e3-ba77-1929050e51f6)
+## Time Spent:  5 hours
+
+
+
+
+
