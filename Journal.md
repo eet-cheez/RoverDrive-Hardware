@@ -63,8 +63,28 @@ I need to make the PCB now. It must fit within a space of 45mmx67mm and should h
 I placed all of the parts on the board. All the power components are all at the bottom. The esp32 sticks out of the side. I also tried to put all of the gyro parts in the center of the board so it is more accurate. The wheel servo headers and battery connectors are on the other side. It looks like this: 
 
 ![Screenshot 2025-07-05 235741](https://github.com/user-attachments/assets/d2d02d1e-b529-47e3-ba77-1929050e51f6)
+
+I learned how to add ground planes to the pcb, so I added it to both sides.
+
+I started the 5v power traces at the battery and made it super thick, around 1mm to 1.5mm.
+
+Then, I did the 3.3v power traces, which goes from the regulator to the ESP module and all of the sensors. Both traces had to be routed along the side of the board because there wasnt much space.
+
+I finally connected all of the signal pins. They had to go on both sides and needed vias. I also noticed that the ground plane got split up in many areas, so vias were needed to connect it to the other side
 ## Time Spent:  5 hours
 
+## Day 8 - 7/2
+The PCB is almost done, so I ran a design rules checker. It told me a bunch of the gnd pads werent right, so I added vias on them. Also, a bunch of wires were not connected yet, so I fixed them.
+
+I moved all of the silkscreen stuff in better places to get rid of most of the warnings.
+
+I learned how to add images on the silkscreen, so I added a few.
+
+Its finished
+
+![Screenshot 2025-07-06 183929](https://github.com/user-attachments/assets/b4f2685f-718c-4603-bfea-2713ab364a26)
+
+## Time Spent:  1 hour
 
 
 
