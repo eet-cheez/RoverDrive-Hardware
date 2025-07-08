@@ -1,10 +1,10 @@
 ---
 title: "RoverDrive Hardware"
 author: "Dylan Itoh"
-description: "Purpose is to improve and organize the electronics inside the 'RoverDrive' robot by designing one PCB for everything"
+description: "A PCB for a robot"
 created_at: "2025-06-24"
 ---
-
+### Total time: about 24 hours
 # Journal
 
 ## Day 1 - 6/24
