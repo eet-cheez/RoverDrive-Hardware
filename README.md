@@ -1,1 +1,28 @@
 # RoverDrive-Hardware
+
+## BOM
+| Item                  | Description         | Quantity | Cost |
+|-----------------------|---------------------|----------|----------------|
+|ESP32-S3-MINI-1-N8|	the microcontroller	|1	|$6.15 |
+|NFM18PC104R1E3D|	100nf capacitor	|13	|$1.69|
+|PTS647SN50SMTR2 LFS|	reset and boot buttons|	2	|$0.46|
+|GRM188C81A226ME01D|	22uf ceramic capacitor|	3	|$0.87|
+|TAJA226K010RNJ|	22uf tantalum capacitor. for ams1117-3.3	|2|$0.70|
+|SS34| schottky diode	|1|$0.52|
+|SRP7028AA-220M|	22uh inductor	for 5v regulator|1|$1.11|
+|C1608X7T1A106M080AC|	10uf ceramic capacitor	|3|	$0.69|
+|06031A220FAT2A|	22pf ceramic capacitor for gyro|3	|$1.32|
+|CRCW060310K0FKEI|	10k resistor	|7	|$1.05|
+|CRCW06035K10FKEC|	5.1k resistor	|3	|$0.36|
+|RNCE0603BTE1K00|	1k resistor	|2|$0.42|
+|ERJ-3RBD7501V|	7.5k resistor	|2|$0.30|
+|ABS07-32.768KHZ-7-T|	32.768 kHz crystal for gyro|1|$0.82|
+|BNO055|	9 axis IMU	|1|$12.34|
+|USB4105-GF-A	|USB c receptacle, 16 contact|1|$0.78|
+|MT3608|	boost converter. used to increase battery voltage to 5v (already have)|	1	|$0|
+|AMS1117-3.3|	3.3v voltage regulator	|1	|$0|
+|2.54mm pin headers	|for servos	|5| $0|
+|Molex picoblade connector|fits with the battery, probably|1|$0|
+|JST Connectors (2-pin, 3-pin, 4-pin)|Probably JST XH|3|$0|
+|PCB|from JLCPCB|1|$41.71|
+**Total:			$71.29**
