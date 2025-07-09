@@ -1,4 +1,28 @@
 # RoverDrive-Hardware
+A custom PCB for a robot powered by an esp32 microcontroller that has pins to control 4 servos plus one for sub-micro servo at 3.3v (in case it burns out at 5v). It also can support multiple other devices like LEDs or sensors and has an IMU to know its direction.
+
+![Screenshot 2025-07-09 000034](https://github.com/user-attachments/assets/36470689-e1ac-4909-b196-7ea8482a30d5)
+![Screenshot 2025-07-09 005853](https://github.com/user-attachments/assets/a746ac2a-13a0-4acd-abf8-00fe2f0e954b)
+![Screenshot 2025-07-09 005949](https://github.com/user-attachments/assets/760a9857-7d93-4117-ad8f-c38bcb594ffb)
+
+
+### Why am I doing this?
+Last year, I built a robot that was controlled by connecting to an app. The problem is that the inside was a mess of wires and modules floating around, so it was a pain to fix and improve. I decided a PCB could fit more features while also being much easier to assemble and access.
+
+## Details
+- The microcontroller is an ESP32-S3-mini-1. I only really chose it because it seemed compact, but there are probably much better options. 
+- For the IMU, it uses a BNO055, which does all of the calculations internally to find its orientation. Might be a bit overkill, but I want to make sure it works properly.
+- The board uses a basic ams1117-3.3 to to power all of the 3.3v devices.
+- Power is supplied to the board via a 1s lipo battery, which gets boosted to 5v by a mt3608 regulator.
+- PCB designed in KiCad.
+### Schematic: 
+![Screenshot 2025-07-09 000448](https://github.com/user-attachments/assets/8ccad17f-91cd-48b2-979c-726ddea5a343)
+### PCB: 
+![Screenshot 2025-07-06 183929](https://github.com/user-attachments/assets/1a3bf91a-3b2b-44f1-b272-d67cc10cb875)
+
+This is that the robot looks like with a model of the PCB (in TinkerCad):
+ 
+![Screenshot 2025-07-09 001057](https://github.com/user-attachments/assets/1672e596-b73b-4b48-82c0-f60903a756ec)
 
 ## BOM
 | Item                  | Description         | Quantity | Cost |
@@ -24,5 +48,8 @@
 |2.54mm pin headers	|for servos	|5| $0|
 |Molex picoblade connector|fits with the battery, probably|1|$0|
 |JST Connectors (2-pin, 3-pin, 4-pin)|Probably JST XH|3|$0|
-|PCB|from JLCPCB|1|$41.71|
+|PCB|from JLCPCB|1|$41.71 **(See below for price explanation)***|
 **Total:			$71.29**
+
+### * PCB Price Explanation
+I'm exhibiting the full Roverdrive project at Open Sauce this year and did not have much time to create the hardware (need to finish by the 19th, difficult with Undercity taking up time). In order to get the PCB on time, I had to pay way more for shipping and couldn't spend much time optimizing the cost. I've already bought all of the parts, and I understand if Hack Club doesn't want to reimburse the full cost. If needed, I would gladly take a smaller, more reasonable reimbursement.
