@@ -1,7 +1,5 @@
 Item,Description,Amount,Total Cost
 ESP32-S3-MINI-1-N8,,1,$6.15
-3.7V 3000mAh LiPo Battery,already have,4,$0
-6-in-1 1S Li-ion/Lipo USB Charger,already have,1,$0
 NFM18PC104R1E3D,100nf capacitor,13,$1.69
 PTS647SN50SMTR2 LFS,reset and boot buttons,2,$0.46
 GRM188C81A226ME01D,22uf ceramic capacitor,3,$0.87
@@ -24,3 +22,6 @@ Molex picoblade connector,"fits with the battery, probably (already have)",1,$0
 "JST Connectors (2-pin, 3-pin, 4-pin)","No specific type, just any that fit on the board. (already have)",3,$0
 PCB (x5) + shipping + 1 day,"from JLCPCB, see readme for explanation",1,$41.71
 Total:,,,$71.29
+
+Sheet with Links:
+https://docs.google.com/spreadsheets/d/1vR1n98YzZK8dJmbvGAbjTAVUf36cDbNLpNew4ql-z88/edit?usp=sharing
