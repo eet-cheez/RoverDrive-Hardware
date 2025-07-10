@@ -51,5 +51,7 @@ This is that the robot looks like with a model of the PCB (in TinkerCad):
 |PCB|from JLCPCB|1|$41.71 **(See below for price explanation)***|
 **Total:			$71.29**
 
+Sheet with part links: https://docs.google.com/spreadsheets/d/1vR1n98YzZK8dJmbvGAbjTAVUf36cDbNLpNew4ql-z88/edit?usp=sharing
+
 ### * PCB Price Explanation
 I'm exhibiting the full Roverdrive project at Open Sauce this year and did not have much time to create the hardware (need to finish by the 19th, difficult with Undercity taking up time). In order to get the PCB on time, I had to pay way more for shipping and couldn't spend much time optimizing the cost. I've already bought all of the parts, and I understand if Hack Club doesn't want to reimburse the full cost. If needed, I would gladly take a smaller, more reasonable reimbursement.
