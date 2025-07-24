@@ -2,9 +2,9 @@
 title: "RoverDrive Hardware"
 author: "Dylan Itoh"
 description: "A PCB for a robot"
-created_at: "2025-06-24"
+created at: "2025-06-24"
 ---
-### Total time: about 24 hours
+### Total time: about 27 hours
 # Journal
 
 ## Day 1 - 6/24
@@ -86,6 +86,26 @@ Its finished
 
 ## Time Spent:  1 hour
 
+## Day 9 - 7/23
+multiple changes had to be made to the CAD model to make the PCB fit well inside it:
+- all of the old inside stuff was removed
+- a hole was added to the side of the base for the ESP to stick through
+- supports added to the edge of the base inside for the board to rest on
+- top lid of the body had to be modified to prevent it from colliding with components on the PCB
+- holes added in the top lid for connectors and the reset+boot buttons
+- side connector holes moved around to make space for switch
+- hole and support added for a power switch on the side of the base
+- door added to the bottom of the base for easy battery access
 
+Before:
+
+<img width="492" height="293" alt="Screenshot 2025-07-23 234520" src="https://github.com/user-attachments/assets/3b85b5ac-cfd0-494c-9263-8938746d86cd" />
+
+After: 
+
+<img width="275" height="323" alt="image" src="https://github.com/user-attachments/assets/40328c8d-2542-44f9-ac91-9b1394e10a77" />
+
+
+## Time Spent:  3 hours
 
 
