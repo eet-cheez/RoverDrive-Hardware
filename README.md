@@ -20,9 +20,12 @@ Last year, I built a robot that was controlled by connecting to an app. The prob
 ### PCB: 
 ![Screenshot 2025-07-06 183929](https://github.com/user-attachments/assets/1a3bf91a-3b2b-44f1-b272-d67cc10cb875)
 
+#### CAD:
 This is that the robot looks like with a model of the PCB (in TinkerCad):
  
 ![Screenshot 2025-07-09 001057](https://github.com/user-attachments/assets/1672e596-b73b-4b48-82c0-f60903a756ec)
+
+The robot chassis needed to be changed to fit the PCB. Files have been attached if needed.
 
 ## BOM
 | Item                  | Description         | Quantity | Cost |
