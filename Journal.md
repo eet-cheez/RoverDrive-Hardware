@@ -109,3 +109,21 @@ After:
 ## Time Spent:  3 hours
 
 
+## Assembly
+
+## 7/18-19
+I got all of the components and the pcb, so all that's left to do is solder everything. First, I attached all of the capacitors, then resistors, then all of the power supply components and battery plug. I wanted to test if it powered up, and I ran into a big problem. After plugging the battery in, it heated up and the regulator components started smoking. Using a multimeter, I found that there was a short between 5v and gnd. I decided it was best to keep removing components until it stopped showing continuity. It turned out to all be caused by the 100nf capacitors, which for some reason had continuity between both ends. Maybe I got the wrong type. I decided to move on without battery power and focus on the actual microcontroller. I used a heat gun and solder paste to attach the IMU, which was kind of hard and took a few tries. Soldering the ESP was almost impossible, but I attached it by heating from the bottom. I soldered the usb receptacle last, and it got kind of melty. When plugging it in, it got power, but would not show up as a device       
+
+## 7/28
+I continued working on the pcb.
+
+I assumed it was the bad soldering of the ESP that caused the problem. Or maybe I cooked the ESP after it being under the heat gun for so long. I unsoldered the module from the board and instead attached it using many thin wires. It might not look nice, but it should work.
+After powering it on, It did not work. still the exact same as before.
+
+## 8/1
+I came up with another idea that it might be the USB port that was not soldered well. I noticed that the pads of the receptacle were all lifted up, except for the power ones, and were also super bent up. I replaced it with a port desoldered from a different board and made sure to press it down while soldering it on.
+
+I probed around again with a multimeter to see if there were any issues. The data lines were connected to the USB, and were not connected to each other. After plugging it in, it still did not show as a device. I thought I might need to uploed firmware to activate it somehow, but I do not know how.
+
+## 8/2
+I started messing with the board again with a multimeter, and discovered that the ESP module wasn't even recieving power. The problem was really just the vcc wire accidentally being soldered to gnd. After fixing this one thing, the board actually worked and connected to the computer. It often disconnected though, and I assumed it was still the usb connector not soldered well. I pressed it to the board while heating it with a heat gun, and the issue dissapeared when plugging it in.
