@@ -58,3 +58,8 @@ Sheet with part links: https://docs.google.com/spreadsheets/d/1vR1n98YzZK8dJmbvG
 
 ### * PCB Price Explanation
 I'm exhibiting the full Roverdrive project at Open Sauce this year and did not have much time to create the hardware (need to finish by the 19th, difficult with Undercity taking up time). In order to get the PCB on time, I had to pay way more for shipping and couldn't spend much time optimizing the cost. I've already bought all of the parts, and I understand if Hack Club doesn't want to reimburse the full cost. If needed, I would gladly take a smaller, more reasonable reimbursement.
+
+### Finished Project
+
+![20250823_002923](https://github.com/user-attachments/assets/62533ad3-876a-43dc-ac6c-77e7e1ee0dce)
+![20250823_003016](https://github.com/user-attachments/assets/197bdb32-7760-4b8c-a308-0fcbcb45abc9)
