@@ -124,6 +124,12 @@ After powering it on, It did not work. still the exact same as before.
 I came up with another idea that it might be the USB port that was not soldered well. I noticed that the pads of the receptacle were all lifted up, except for the power ones, and were also super bent up. I replaced it with a port desoldered from a different board and made sure to press it down while soldering it on.
 
 I probed around again with a multimeter to see if there were any issues. The data lines were connected to the USB, and were not connected to each other. After plugging it in, it still did not show as a device. I thought I might need to uploed firmware to activate it somehow, but I do not know how.
-
 ## 8/2
 I started messing with the board again with a multimeter, and discovered that the ESP module wasn't even recieving power. The problem was really just the vcc wire accidentally being soldered to gnd. After fixing this one thing, the board actually worked and connected to the computer. It often disconnected though, and I assumed it was still the usb connector not soldered well. I pressed it to the board while heating it with a heat gun, and the issue dissapeared when plugging it in.
+
+<img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/96b9c1b0-a2d4-451d-8922-9e5c8fe9c087" />
+
+The board looks very burnt, but it atleast works.
+Next, I assembled the test robot by installing the pcb, motors, and battery into the 3d printed chassis and wiring it all together. This is the finished robot:
+<img width="963" height="871" alt="image" src="https://github.com/user-attachments/assets/9adcb579-3335-4bfc-bee2-eef9d0d4572c" />
+
