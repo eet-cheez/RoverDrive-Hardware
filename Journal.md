@@ -112,7 +112,12 @@ After:
 ## Assembly
 
 ## 7/18-19
-I got all of the components and the pcb, so all that's left to do is solder everything. First, I attached all of the capacitors, then resistors, then all of the power supply components and battery plug. I wanted to test if it powered up, and I ran into a big problem. After plugging the battery in, it heated up and the regulator components started smoking. Using a multimeter, I found that there was a short between 5v and gnd. I decided it was best to keep removing components until it stopped showing continuity. It turned out to all be caused by the 100nf capacitors, which for some reason had continuity between both ends. Maybe I got the wrong type. I decided to move on without battery power and focus on the actual microcontroller. I used a heat gun and solder paste to attach the IMU, which was kind of hard and took a few tries. Soldering the ESP was almost impossible, but I attached it by heating from the bottom. I soldered the usb receptacle last, and it got kind of melty. When plugging it in, it got power, but would not show up as a device       
+
+I got all of the components and the pcb: 
+
+<img width="401" height="317" alt="image" src="https://github.com/user-attachments/assets/f655eb0e-756b-4e9f-a791-6f896dc9d23c" />
+
+So all that's left to do is solder everything. First, I attached all of the capacitors, then resistors, then all of the power supply components and battery plug. I wanted to test if it powered up, and I ran into a big problem. After plugging the battery in, it heated up and the regulator components started smoking. Using a multimeter, I found that there was a short between 5v and gnd. I decided it was best to keep removing components until it stopped showing continuity. It turned out to all be caused by the 100nf capacitors, which for some reason had continuity between both ends. Maybe I got the wrong type. I decided to move on without battery power and focus on the actual microcontroller. I used a heat gun and solder paste to attach the IMU, which was kind of hard and took a few tries. Soldering the ESP was almost impossible, but I attached it by heating from the bottom. I soldered the usb receptacle last, and it got kind of melty. When plugging it in, it got power, but would not show up as a device       
 
 ## 7/28
 I continued working on the pcb.
@@ -130,6 +135,15 @@ I started messing with the board again with a multimeter, and discovered that th
 <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/96b9c1b0-a2d4-451d-8922-9e5c8fe9c087" />
 
 The board looks very burnt, but it atleast works.
-Next, I assembled the test robot by installing the pcb, motors, and battery into the 3d printed chassis and wiring it all together. This is the finished robot:
+Next, I made a test setup by wiring the motors and battery to the pcb. This is what it looked like:
+
+<img width="572" height="417" alt="image" src="https://github.com/user-attachments/assets/8a2a0ba3-b5c4-4ac6-a3a3-da18dd7c229c" />
+
+All of the robot parts finished printing and I started putting them together. The chassis neeeded a switch installed and some parts had to be assembled by melting them together. The battery door could be attached with very thin (about 1mm diameter) pins. I used servo screws but I could have also used paperclips.
+
+<img width="615" height="311" alt="image" src="https://github.com/user-attachments/assets/ed993830-5590-437b-88ea-63bd86cd646c" />
+
+I installed the main components like servos, battery, pcb, into the chassis and wired them together again. The front wheels were replaced with omnidirectional wheels from an older version of the robot to make turning easier.
+
 <img width="963" height="871" alt="image" src="https://github.com/user-attachments/assets/9adcb579-3335-4bfc-bee2-eef9d0d4572c" />
 
